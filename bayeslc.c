@@ -7,13 +7,14 @@ distribution.
 Based on Ed Cripps' MATLAB code and the statistical 
 model described in:
 
-Cripps et al. (2007) Modelling uncertainty in
-satellite-derived land cover maps. Bayesian Analysis.
+Cripps et al. (2013) Quantifying uncertainty in remotely sensed land cover maps. Stochastic Environmental Research and Risk Assessment, 27 (5). pp. 1239-1251. doi: 10.1007/s00477-012-0660-3 
 
-Requires my matrix i/o and strparse libraries and the GSL.
+Quaife and Cripps (2016) Bayesian Analysis of Uncertainty in the GlobCover 2009 Land Cover Product at Climate Model Grid Scale. Remote Sensing. doi:10.3390/rs8040314
 
-Tristan Quaife. 2007.
-tquaife@geog.ucl.ac.uk
+Requires my matrix i/o and strparse code and the GSL.
+
+Tristan Quaife. 2016.
+tquaife@gmail.com
 */
 
 
