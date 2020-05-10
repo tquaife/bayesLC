@@ -1,0 +1,27 @@
+
+#Proportions files:
+#These are the original land cove classes,one file per class 
+#in this case the GlobCover 2009 data set at 0.5 degree fractional coverage
+frac_11_globCov2009.dat frac_14_globCov2009.dat frac_20_globCov2009.dat frac_30_globCov2009.dat frac_40_globCov2009.dat frac_50_globCov2009.dat frac_60_globCov2009.dat frac_70_globCov2009.dat frac_90_globCov2009.dat frac_100_globCov2009.dat frac_110_globCov2009.dat frac_120_globCov2009.dat frac_130_globCov2009.dat frac_140_globCov2009.dat frac_150_globCov2009.dat frac_160_globCov2009.dat frac_170_globCov2009.dat frac_180_globCov2009.dat frac_190_globCov2009.dat frac_200_globCov2009.dat frac_210_globCov2009.dat frac_220_globCov2009.dat 
+
+#mask file:
+#a land sea mask
+msk.dat
+
+#confusion matrix:
+cm_no80.dat
+
+#counts file:
+#the "counts" are the number of pixels that
+#were in the orginal resolution C data.
+#The area file (optional) is used for weighting  
+counts_globCov2009.dat GridCellArea_m2.dat
+
+#ouput posterior means:
+#requires one file name per input land cover class
+mean_11_globCov2009.dat mean_14_globCov2009.dat mean_20_globCov2009.dat mean_30_globCov2009.dat mean_40_globCov2009.dat mean_50_globCov2009.dat mean_60_globCov2009.dat mean_70_globCov2009.dat mean_90_globCov2009.dat mean_100_globCov2009.dat mean_110_globCov2009.dat mean_120_globCov2009.dat mean_130_globCov2009.dat mean_140_globCov2009.dat mean_150_globCov2009.dat mean_160_globCov2009.dat mean_170_globCov2009.dat mean_180_globCov2009.dat mean_190_globCov2009.dat mean_200_globCov2009.dat mean_210_globCov2009.dat mean_220_globCov2009.dat
+
+#ouput posterior stdvs:
+#requires one file name per input land cover class
+stdv_11_globCov2009.dat stdv_14_globCov2009.dat stdv_20_globCov2009.dat stdv_30_globCov2009.dat stdv_40_globCov2009.dat stdv_50_globCov2009.dat stdv_60_globCov2009.dat stdv_70_globCov2009.dat stdv_90_globCov2009.dat stdv_100_globCov2009.dat stdv_110_globCov2009.dat stdv_120_globCov2009.dat stdv_130_globCov2009.dat stdv_140_globCov2009.dat stdv_150_globCov2009.dat stdv_160_globCov2009.dat stdv_170_globCov2009.dat stdv_180_globCov2009.dat stdv_190_globCov2009.dat stdv_200_globCov2009.dat stdv_210_globCov2009.dat stdv_220_globCov2009.dat
+
