@@ -14,11 +14,9 @@ The control file must be the last word on the command line.
 Options are:
 
 -d %f        set the correlation factor to %f<br>
--l %d        set the length for the conditional auto regressive model to %d
-
--n %d        set the number of simulations to %d (the higher the better)
-
--u           display this message
+-l %d        set the length for the conditional auto regressive model to %d<br>
+-n %d        set the number of simulations to %d (the higher the better)<br>
+-u           display this message<br>
 
 The format of the control file is a series of ascii text lines each specifying user
 defined input and output filenames. Anything after a # character is treated as a comment.
@@ -26,20 +24,19 @@ Blank lines, or lines consisting only of a comment are ignored. Excluding these
 the following information is expected, in order:
 
 
-Line 1: a list of N files containing the input LC porportions
-
-Line 2: a mask file containing 0 where a mask is to be applied and 1 elsewhere
-
-Line 3: a file containing an NxN confusion matrix
-
-Line 4: a file containing the number of "counts"
-
-Line 5: a list of N files to contain the output means
-
-Line 6: a list of N files to contain the output stdvs
+Line 1: a list of N files containing the input LC proportions<br>
+Line 2: a mask file containing 0 where a mask is to be applied and 1 elsewhere<br>
+Line 3: a file containing an NxN confusion matrix<br>
+Line 4: a file containing the number of "counts"<br>
+Line 5: a list of N files to contain the output means<br>
+Line 6: a list of N files to contain the output stdvs<br>
 
 Aside from the confusion matrix (which is an NxN ascii matrix) all the input files are plain, headerless
-ascii text files containg a single matrix, each of which must have the same dimensions as the rest.
+ascii text files containing a single matrix, each of which must have the same dimensions as the rest.
 
+
+## Install
+
+I have only ever tried installing on Linux. The only dependency is the GNU Scientific Library (GSL). As long as you have the GSL and standard dev tools installed (specifically gcc and make) it should just be a case of typing `make`.
 
 
