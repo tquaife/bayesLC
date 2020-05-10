@@ -1,4 +1,7 @@
 # bayesLC
+
+**This branch is the unchanged code from the 2016 paper.**
+
 Code for calculating uncertainties on satellite based land cover, as described in the following papers:
 
 [Cripps, E., O’Hagan, A., & Quaife, T. (2013). Quantifying uncertainty in remotely sensed land cover maps. Stochastic Environmental Research and Risk Assessment, 27(5), 1239-1251.](https://link.springer.com/article/10.1007/s00477-012-0660-3)
