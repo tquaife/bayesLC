@@ -13,8 +13,7 @@ The control file must be the last word on the command line.
 
 Options are:
 
--d %f        set the correlation factor to %f
-
+-d %f        set the correlation factor to %f<br>
 -l %d        set the length for the conditional auto regressive model to %d
 
 -n %d        set the number of simulations to %d (the higher the better)
