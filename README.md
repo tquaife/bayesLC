@@ -7,7 +7,7 @@ Code for calculating uncertainties on satellite based land cover, as described i
 
 ## Usage
 
-usage: bayeslc \[options\] control_file.txt
+usage: bayeslc \[options\] control_file.txt > output.txt
 
 The control file must be the last word on the command line.
 
@@ -23,7 +23,6 @@ defined input and output filenames. Anything after a # character is treated as a
 Blank lines, or lines consisting only of a comment are ignored. Excluding these
 the following information is expected, in order:
 
-
 Line 1: a list of N files containing the input LC proportions<br>
 Line 2: a mask file containing 0 where a mask is to be applied and 1 elsewhere<br>
 Line 3: a file containing an NxN confusion matrix<br>
@@ -34,6 +33,13 @@ Line 6: a list of N files to contain the output stdvs<br>
 Aside from the confusion matrix (which is an NxN ascii matrix) all the input files are plain, headerless
 ascii text files containing a single matrix, each of which must have the same dimensions as the rest.
 
+The total area of each land cover class for each simulation is written to the stdout. 
+
+## Example
+
+The example_data directory contains input data for a small portion of southern Africa. This can be run using the following command:
+
+```bayeslc -n 100 control.txt > ouput.txt```
 
 ## Install
 
