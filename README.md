@@ -6,7 +6,7 @@ Code for calculating uncertainties on satellite based land cover, as described i
 [Quaife, T., & Cripps, E. (2016). Bayesian analysis of uncertainty in the GlobCover 2009 land cover product at climate model grid scale. Remote Sensing, 8(4), 314.](https://www.mdpi.com/2072-4292/8/4/314)
 
 ## Usage
-
+ 
 usage: bayeslc \[options\] control_file.txt > output.txt
 
 The control file must be the last word on the command line.
@@ -40,6 +40,10 @@ The total area of each land cover class for each simulation is written to the st
 The example_data directory contains input data for a small portion of southern Africa. This can be run using the following command:
 
 ```bayeslc -n 100 control.txt > ouput.txt```
+
+The file `control.txt` contains comments explaining the content of each line. Increase the value after the `-n` to produce increase
+the number of samples, the greater the number the better represented the posterior distribution will be, but the longer 
+the run will take. In Quaife and Cripps (2016) we used a value of 10000.
 
 ## Install
 
