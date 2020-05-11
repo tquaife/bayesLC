@@ -16,7 +16,7 @@ Options are:
 `-d %f`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        set the correlation factor to %f<br>
 `-l %d`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       set the length for the conditional auto regressive model to %d<br>
 `-n %d`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        set the number of simulations to %d (the higher the better)<br>
-`-u`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           display this message<br>
+`-u`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           display this message<br>
 
 The format of the control file is a series of ascii text lines each specifying user
 defined input and output filenames. Anything after a # character is treated as a comment.
