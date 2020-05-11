@@ -45,8 +45,15 @@ The file `control.txt` contains comments explaining the content of each line. In
 the number of samples, the greater the number the better represented the posterior distribution will be, but the longer 
 the run will take. In Quaife and Cripps (2016) we used a value of 10000.
 
+A quick and dirty python script `showImg.py` is included to view the input and output maps.
+
+## License
+
+This is open source software (see the license for full details). You can use it without any obligation to the authors. 
+However, if you want help implementing it for a given application we're happy to discuss.
+
 ## Install
 
-I have only ever tried installing on Linux. The only dependency is the GNU Scientific Library (GSL). As long as you have the GSL and standard dev tools installed (specifically gcc and make) it should just be a case of typing `make`.
+I have only ever tried installing on Linux. The only dependency is the GNU Scientific Library (GSL). As long as you have the GSL and standard development tools installed (specifically `gcc` and `make`) it should just be a case of typing `make`.
 
 
