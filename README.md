@@ -13,10 +13,10 @@ The control file must be the last word on the command line.
 
 Options are:
 
--d %f        set the correlation factor to %f<br>
--l %d        set the length for the conditional auto regressive model to %d<br>
--n %d        set the number of simulations to %d (the higher the better)<br>
--u           display this message<br>
+`-d %f`\t        set the correlation factor to %f<br>
+`-l %d`\t       set the length for the conditional auto regressive model to %d<br>
+`-n %d`\t        set the number of simulations to %d (the higher the better)<br>
+`-u`\t           display this message<br>
 
 The format of the control file is a series of ascii text lines each specifying user
 defined input and output filenames. Anything after a # character is treated as a comment.
